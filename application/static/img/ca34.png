@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="UTF-8">
+<meta name="applicable-device" content="pc,mobile">
+
+<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+<title>网站案例欣赏，成都网站建设800起。期待与您携手合作！- 成都创新互联</title>
+<meta content="网站案例" name="keywords" />
+
+<link rel="shortcut icon" href="/webtop.ico" type="image/x-icon" />
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/top.css">
+<link rel="stylesheet" href="../css/case.css">
+<link rel="stylesheet" href="../css/casexq.css">
+<link rel="stylesheet" type="text/css" href="../css/animated.css" >
+<script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="../js/ying.js"></script>
+    
+</head>
+<body>
+<header class="casebanner headM">
+<nav>
+<div class="carousel-inner carousel-inner-fdc">
+    <div class="carousel-inner topbg topbgcase">
+        <div class="carousel-inner topnav">
+            <div class="container">
+                <div class="logo"><img src="../imges/logo.png"></div>
+                <div class="topcd fdnav_case">
+                    <ul>
+                        <li><a href="https://www.cdcxhl.com">网站建设</a></li>
+                        <li><a href="../case.html">成功案例</a></li>
+                        <li><a href="../h5.html">响应式网站</a></li>
+                        <li><a href="../wangzhandingzhi.html">企业网站</a></li>
+                        <li><a href="../seo.html">营销网站</a></li>
+                        <li><a href="../shop.html">商城网站</a></li>
+                        <li><a href="../mobile.html">移动网站</a></li>
+                        <li><a href="../about.html">关于我们</a></li>
+                    </ul>
+                </div>
+                <div class="ss">
+                    <button type="button" class="btn btn-warning">
+                        <span class="glyphicon glyphicon-align-justify" aria-hidden="true"></span>
+                    </button>
+                </div>                
+            </div>
+        </div>      
+    </div>
+    <div class="container banner">
+        <h1><span>网站建设</span>合作客户精彩案例</h1>
+        <p><span>10年</span>不同的企业需求不同制作出精美出色的网站<br>
+        下一个效果非凡网站就是您的？</p>
+    </div>
+</div>
+
+</nav>
+</header>
+
+
+<div class="case_con case_conA">
+  <img src="http://www.cdxwcx.com/wangzhan/case/images/dmvi_banner.jpg" >
+  <div class="fd"> 
+        <h2>创新互联广告印刷网站设计制作</h2>
+        <p>成都新网创想广告设计中心网站设计</p>
+    </div>
+</div><!--case_conB-->
+
+<div class="case_con case_conB">
+	<div class="case_conB1"><img src="http://www.cdxwcx.com/wangzhan/case/images/dmvi.jpg" ></div>
+    <div class="case_conB2">
+    	<h3>成都新网创想广告设计中心</h3>
+        <span>分类：</span>广告印刷<br>
+        <span>简介：</span>
+        <p>我们一直相信，客户的每一个产品，都是一个绝妙的创意；凭借客户自身独特而敏锐的商业嗅觉，经历了无数次的头脑风暴与火花碰撞，无数个策划绞尽脑汁获得的灵感迭代，它将被运用于实际产品中来，每个人都对它寄予厚望；</p>                   
+    </div>
+</div><!--case_conC-->
+
+<div class="case_con case_conC">
+	<img src="http://www.cdxwcx.com/wangzhan/case/images/dmvi1.jpg">
+</div><!--case_conD-->
+
+
+<div class="container caselx"> 
+    <div><img src="../imges/erm.png"><br>
+    扫码咨询</div>
+    <a class="btn" href="tencent://message/?uin=631063699&amp;Site=&amp;Menu=yes">广告印刷官方网站</a>
+</div>
+
+
+<footer>
+<div class="carousel-inner footjz">
+
+<div class="container">
+<i class="icon iconfont zbw">&#xe608;</i>
+高品质定制 <i class="icon iconfont">&#xe60b;</i>
+跨终端自动兼容 <i class="icon iconfont">&#xe655;</i>
+节约开发成本  <i class="icon iconfont">&#xe678;</i>
+开发周期短 <i class="icon iconfont">&#xe60f;</i>
+一体化服务
+<button  type="button" class="btn  btn-default btn-lg" onClick="window.location.href='tencent://message/?uin=631063699&Site=&Menu=yes'"> 立即开始2800定制网站建设</button>
+<button  type="button" class="btn  btn-default btn-xs" onClick="window.location.href='tencent://message/?uin=631063699&Site=&Menu=yes'"> 2800定制网站建设</button>
+</div>
+</div>
+<div class="carousel-inner bqsy">
+<div class="container">
+<div class="lxfs">
+<h4 class="yutelnone">028-86922220 13518219792</h4>
+<h4 class="yutelblock"><a href="tel:02886922220">028-86922220</a> <a href="tel:13518219792">13518219792</a></h4>
+<a class="btn btn-default" href="tencent://message/?uin=532337155&Site=&Menu=yes" role="button">页面设计<span>QQ</span>：532337155</a> 
+<a class="btn btn-default" href="tencent://message/?uin=631063699&Site=&Menu=yes" role="button">营销推广<span>QQ</span>：631063699</a>
+
+<a class="btn btn1 btn-default" href="mqqwpa://im/chat?chat_type=wpa&uin=532337155&version=1&src_type=web&web_src=oicqzone.com" role="button">页面设计<span>QQ</span>：532337155</a> 
+<a class="btn btn1 btn-default" href="mqqwpa://im/chat?chat_type=wpa&uin=631063699&version=1&src_type=web&web_src=oicqzone.com" role="button">营销推广<span>QQ</span>：631063699</a>
+
+
+<a class="btn btn-default nonea" href="tencent://message/?uin=1683211881&Site=&Menu=yes" role="button">售后服务：1683211881</a>
+<div class="dz">专注：网站设计制作 成都网站建设 网络营销推广　<address>地址：成都市太升南路288号锦天国际A幢1002号 <span>蜀ICP备13010860号-1</span></address></div>
+</div>
+<div class="bzdh"><img src="../imges/bottom_logo.png">
+<p>成都创新互联科技有限公司<br>
+Tel：400-028-6601（7x24h）</p></div>
+</div>
+</div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?6ce441ff9e2d6bedbdfc2a4138de449e";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>

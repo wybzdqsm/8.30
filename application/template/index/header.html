@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{CSS_ADD}index/index1.css">
+    <style>
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+<div class="header">
+    <div class="nav">
+        <div class="topbg">
+            <div class="topnav">
+                <div class="topcon">
+                    <div class="logo">
+                        <img src="{IMG_ADD}logo.png" alt="" style="vertical-align: middle;">
+                    </div>
+                    <div class="navlink">
+
+                        <ul style="padding: 0">
+                            {foreach $menudata as $v}
+                            <li class="navli">
+                                <a href="{ENTRY_ADD}/index/categroy?cid={$v['cid']}">{$v["cname"]}</a>
+                              {if isset($v["child"])}
+                                <ul style="width:130px;padding: 0">
+                                    {foreach $v["child"] as $v1}
+                                    <li >
+                                        <a href="{ENTRY_ADD}/index/lists/int?cid={$v1['cid']}">
+                                            {$v1["cname"]}
+                                        </a>
+                                    </li>
+                                    {/foreach}
+                                </ul>
+
+                                {/if}
+                            </li>
+                            {/foreach}
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>

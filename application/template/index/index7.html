@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="{JS_ADD}animate.js"></script>
+    <title>Document</title>
+</head>
+<body>
+{include file=$header}
+<div class="banner">
+    <h1 style="font-size: 60px;font-family: 'HanHei-SC';">移动网站建设</h1>
+    <p style="margin: 0 0 10px;display: block;">基于HTML5开发，适用于主流手机浏览器。<br>
+        可以实现电脑版网站的所有功能开发，助力移动互联网。
+    </p>
+</div>
+
+</div>
+</div>
+<!-- 头部结束 -->
+
+<!-- 手机网站建设 -->
+<section >
+    <h2 style="font-size: 46px; color: #121212; font-family: 'HanHei-SC';">{$soninfo[0]["cname"]}</h2>
+    <p>{$soninfo[0]["info"]}</p>
+</section>
+
+<div class="contain">
+    <h3 style="padding: 32px 0px 33px; font-size: 16px;">
+  <span>
+      {$coninfo[0][0]["ctitle"]}
+  </span>
+        {$coninfo[0][0]["info"]}
+    </h3>
+    <h3 style="padding: 32px 0px 33px; font-size: 16px;">
+        <span style="padding-left: 170px;">
+           {$coninfo[0][1]["ctitle"]}
+        </span>
+        {$coninfo[0][1]["info"]}
+    </h3 >
+    <h3 style="padding: 32px 0px 33px; font-size: 16px;">
+            <span style="padding-left: 230px;">
+              {$coninfo[0][2]["ctitle"]}
+            </span>
+        {$coninfo[0][2]["info"]}。
+    </h3>
+    <h3 style="padding: 32px 0px 33px; font-size: 16px;">
+                <span style="padding-left: 150px;">
+                   {$coninfo[0][3]["ctitle"]}
+                </span>
+        {$coninfo[0][3]["info"]}
+    </h3>
+</div>
+
+
+
+<!-- 移动端 -->
+<div class="pc">
+    <div class="pc1">
+        <section >
+            <h2 style="font-size: 46px; color: #121212; font-family: 'HanHei-SC';">{$soninfo[1]["cname"]}</h2>
+            <p>{$soninfo[1]["cname"]}</p>
+        </section>
+    </div>
+    <div class="pc2">
+        {foreach $coninfo[1] as $v}
+        <div class="pc3">
+            <img src='{$v["imgurl"]}' alt="" style="width:60px ;height:60px;">
+            <h4>{$v["ctitle"]}</h4>
+            <p style="padding: 0px 10px;">{$v["info"]}</p>
+        </div>
+        {/foreach}
+</div>
+</div>
+
+
+<div class="mphone" >
+    <section >
+        <h2 style="font-size: 46px; color: #121212; font-family: 'HanHei-SC';">{$soninfo[2]["cname"]}</h2>
+        <p>{$soninfo[2]["info"]}</p>
+    </section>
+    <img src='{$soninfo[2]["imgurl"]}' alt="">
+</div>
+
+
+<div style="width:100%;background: #EEEEEE;text-align: center;padding: 20px 0px;">
+    <div class="mphone">
+        <section >
+            <h2 style="font-size: 46px; color: #121212; font-family: 'HanHei-SC';">{$soninfo[3]["cname"]}</h2>
+            <p>{$soninfo[3]["info"]}</p>
+        </section>
+        <img src='{$soninfo[3]["imgurl"]}' alt="">
+    </div>
+</div>
+
+
+<div class="mphone" >
+    <section >
+        <h2 style="font-size: 46px; color: #121212; font-family: 'HanHei-SC';">{$soninfo[4]["cname"]}</h2>
+        <p>{$soninfo[4]["info"]}</p>
+    </section>
+    <img src='{$soninfo[4]["imgurl"]}' alt="">
+</div>
+{include file=$footer}
+<!-- 侧边栏 -->
+<div class="cbnav">
+    <ul >
+        <li class="li1" style="background:#33cee5;">
+            <a href="#">
+                <img src="{IMG_ADD}cb1.png" alt="" style="width:40px;height:40px;padding-left:15px;" >
+                <p>1683211881</p>
+            </a>
+        </li>
+        <li class="li1">
+            <a href="#">
+                <img src="{IMG_ADD}cb2.png" alt="" style="width:30px;height:30px;padding-left:20px;" >
+                <p>028-86922220</p>
+            </a>
+        </li>
+        <li class="li1">
+            <a href="#">
+                <img src="{IMG_ADD}cb3.png" alt="" style="width:30px;height:30px;padding-left:20px;" >
+                <p>13518219792</p>
+            </a>
+        </li>
+        <li class="li1 li2">
+            <a href="#">
+                <img src="{IMG_ADD}cb4.png" alt="" style="width:30px;height:30px;padding-left:20px;" >
+                <p>创新互联</p>
+                <div class="erweima" >
+                    <img src="{IMG_ADD}erweima.png" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="li1 li3" >
+            <a href="#">
+                <img src="{IMG_ADD}cb5.png" alt="" style="width:30px;height:30px;padding-left:20px;" >
+                <p style="border:none">返回顶部</p>
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="zixun">
+    <div class="zixun2">
+        <div class="zixun3">
+
+        </div>
+    </div>
+</div>
+
+
+<link rel="stylesheet" href="{CSS_ADD}index/index7.css">
+<script>
+
+
+    //  侧边导航栏
+    var li1=document.querySelectorAll(".li1")
+    var li2=document.querySelector(".li2")
+    var li3=document.querySelector(".li3")
+    var erweima=document.querySelector(".erweima")
+    var st=document.documentElement.scrollTop;
+    console.log(li1)
+    for(let i=0 ;i<li1.length;i++){
+        li1[i].addEventListener("mouseover",function(){
+            for(var j=0;j<li1.length;j++){
+
+                li1[j].style.background="#fff"
+
+            }
+            this.style.background="#33cee5"
+        },false)
+
+    }
+    li2.addEventListener("mouseover",function(){
+        erweima.style.display="block"
+    },false)
+    li2.addEventListener("mouseout",function(){
+        erweima.style.display="none"
+    },false)
+
+
+    li3.addEventListener("click",function(){
+        animate(document.documentElement,{
+            scrollTop:0
+        },500)
+
+    })
+</script>
+</body>
+</html>
